@@ -4,6 +4,9 @@
 
 This repository contains the Golang codes for the hands-on section of The complete gRPC Golang implementation .
 
+![Interaction Model](img/grpc_001.png)
+
+
 ## The complete gRPC implementation
 
 If you're building APIs for your microservices or mobile applications, you definitely want to try gRPC. It is super-fast, strongly-typed, and you no longer need to write a lot of boilerplate codes for services communication. Thanks to awesome HTTP/2 and Protocol Buffer!
