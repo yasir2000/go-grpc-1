@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"gitlab.com/yasir2000/go-grpc-1/pb"
-	"gitlab.com/yasir2000/go-grpc-1/service"
+	"github.com/yasir2000/go-grpc-1/pb"
+	"github.com/yasir2000/go-grpc-1/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"

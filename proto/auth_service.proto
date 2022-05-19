@@ -5,8 +5,8 @@ package yasir2000.go-grpc-1;
 import "google/api/annotations.proto";
 
 option go_package = ".;pb";
-option java_package = "com.gitlab.yasir2000.go-grpc-1.pb";
-option java_multiple_files = true;
+//option java_package = "github.com.yasir2000.go-grpc-1.pb";
+//option java_multiple_files = true;
 
 message LoginRequest {
   string username = 1;

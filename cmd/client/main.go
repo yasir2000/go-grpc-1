@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/yasir2000/go-grpc-1/client"
-	"gitlab.com/yasir2000/go-grpc-1/pb"
-	"gitlab.com/yasir2000/go-grpc-1/sample"
+	"github.com/yasir2000/go-grpc-1/client"
+	"github.com/yasir2000/go-grpc-1/pb"
+	"github.com/yasir2000/go-grpc-1/sample"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
