@@ -13,6 +13,7 @@ If you're building APIs for your microservices or mobile applications, you defin
 
 This is a 4-in-1 implementation, where you will learn not only gRPC, but also protocol-buffer and backend development with Go and . The codes in this implementation are production-grade, with well-organised structure and unit tests.
 
+![Interaction Model](img/grpc_002.png)
 ### What you’ll learn
 
 - What gRPC is, how it works, why we should use it, and where it is suitable to.
@@ -27,6 +28,7 @@ This is a 4-in-1 implementation, where you will learn not only gRPC, but also pr
 - Secure gRPC connection with sever-side & mutual SSL/TLS.
 - Enable gRPC reflections for service discovery.
 
+![Interaction Model](img/grpc_003.png)
 ### Are there any implementation requirements or prerequisites?
 
 - You only need to have basic programming skills in Go.
