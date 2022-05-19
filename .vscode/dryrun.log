@@ -1,0 +1,4 @@
+make.exe: Entering directory `c:/drive-d/repos/github.com/yasir2000/go-grpc-1'
+protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb 
+make.exe: Leaving directory `c:/drive-d/repos/github.com/yasir2000/go-grpc-1'
+ 

@@ -1,0 +1,62 @@
+{
+  "id": "8cfc1522-5352-4598-8668-4dade0749de2",
+  "brand": "Dell",
+  "name": "XPS",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 5 PRO 3500U",
+    "number_cores": 7,
+    "number_threads": 7,
+    "min_ghz": 2.3296193833269885,
+    "max_ghz": 4.235205326637247
+  },
+  "ram": {
+    "value": "46",
+    "unit": "GIGABYTE"
+  },
+  "gpus": [
+    {
+      "brand": "Nvidia",
+      "name": "RTX 2070",
+      "min_ghz": 1.4693243912967582,
+      "max_ghz": 1.74831119077654,
+      "memory": {
+        "value": "5",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": "SSD",
+      "memory": {
+        "value": "821",
+        "unit": "GIGABYTE"
+      }
+    },
+    {
+      "driver": "HDD",
+      "memory": {
+        "value": "4",
+        "unit": "TERABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 16.389654,
+    "resolution": {
+      "width": 5205,
+      "height": 2928
+    },
+    "panel": "OLED",
+    "multitouch": true
+  },
+  "keyboard": {
+    "layout": "QWERTZ",
+    "backlit": false
+  },
+  "weight_kg": 2.482043143154563,
+  "price_usd": 2029.4161251873168,
+  "release_year": 2016,
+  "updated_at": "2022-05-15T18:20:12.628342200Z"
+}

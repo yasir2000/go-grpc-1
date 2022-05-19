@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package yasir2000.go-grpc-1;
+
+option go_package = ".;pb";
+option java_package = "com.gitlab.yasir2000.go-grpc-1.pb";
+option java_multiple_files = true;
+
+
+message Memory{
+    enum Unit {
+        UKNKOWN =0;
+        BIT=1;
+        KILOBYTE=2;
+        MEGABYTE=3;
+        GIGABYTE=4;
+        TRABYTE=5;
+    }
+    uint64 value =1;
+    Unit unit=2;
+}

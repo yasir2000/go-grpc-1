@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package yasir2000.go-grpc-1;
+
+option go_package = ".;pb";
+option java_package = "com.gitlab.yasir2000.go-grpc-1.pb";
+option java_multiple_files = true;
+
+
+message Keyboard{
+    enum Layout {
+        UKNKOWN =0;
+        QWERTY=1;
+        QWERTZ=2;
+        AZERTY=3;        
+    }
+    Layout layout=1;
+    bool backlit=2;
+}
