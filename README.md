@@ -1,4 +1,4 @@
-# go-grpc-1
+# Go gRPC Full Implementation Project
 
 ## gRPC Four Methods - Go
 
