@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.com/techschool/go-grpc-1/pb"
+	"gitlab.com/yasir2000/go-grpc-1/pb"
 	"google.golang.org/grpc"
 )
 

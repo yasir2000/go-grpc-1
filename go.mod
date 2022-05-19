@@ -1,4 +1,4 @@
-module gitlab.com/techschool/pcbook
+module gitlab.com/yasir2000/go-grpc-1
 
 go 1.15
 

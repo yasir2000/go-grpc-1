@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/techschool/go-grpc-1/client"
-	"gitlab.com/techschool/go-grpc-1/pb"
-	"gitlab.com/techschool/go-grpc-1/sample"
+	"gitlab.com/yasir2000/go-grpc-1/client"
+	"gitlab.com/yasir2000/go-grpc-1/pb"
+	"gitlab.com/yasir2000/go-grpc-1/sample"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -80,7 +80,7 @@ const (
 )
 
 func authMethods() map[string]bool {
-	const laptopServicePath = "/techschool.go-grpc-1.LaptopService/"
+	const laptopServicePath = "/yasir2000.go-grpc-1.LaptopService/"
 
 	return map[string]bool{
 		laptopServicePath + "CreateLaptop": true,

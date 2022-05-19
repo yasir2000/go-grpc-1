@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"gitlab.com/techschool/go-grpc-1/pb"
+	"gitlab.com/yasir2000/go-grpc-1/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

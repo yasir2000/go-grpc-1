@@ -2,12 +2,11 @@ syntax = "proto3";
 
 package yasir2000.go-grpc-1;
 
+import "google/api/annotations.proto";
+
 option go_package = ".;pb";
 option java_package = "com.gitlab.yasir2000.go-grpc-1.pb";
 option java_multiple_files = true;
-
-import "google/api/annotations.proto";
-
 
 message LoginRequest {
   string username = 1;

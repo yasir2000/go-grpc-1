@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
-	"gitlab.com/techschool/go-grpc-1/pb"
-	"gitlab.com/techschool/go-grpc-1/service"
+	"gitlab.com/yasir2000/go-grpc-1/pb"
+	"gitlab.com/yasir2000/go-grpc-1/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
@@ -48,7 +48,7 @@ const (
 )
 
 func accessibleRoles() map[string][]string {
-	const laptopServicePath = "/techschool.go-grpc-1.LaptopService/"
+	const laptopServicePath = "/yasir2000.go-grpc-1.LaptopService/"
 
 	return map[string][]string{
 		laptopServicePath + "CreateLaptop": {"admin"},
