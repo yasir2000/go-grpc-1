@@ -8,16 +8,16 @@ This repository contains the Golang codes for the hands-on section of The comple
 
 If you're building APIs for your microservices or mobile applications, you definitely want to try gRPC. It is super-fast, strongly-typed, and you no longer need to write a lot of boilerplate codes for services communication. Thanks to awesome HTTP/2 and Protocol Buffer!
 
-This is a 4-in-1 implementation, where you will learn not only gRPC, but also protocol-buffer and backend development with Go and Java. The codes in this implementation are production-grade, with well-organised structure and unit tests.
+This is a 4-in-1 implementation, where you will learn not only gRPC, but also protocol-buffer and backend development with Go and . The codes in this implementation are production-grade, with well-organised structure and unit tests.
 
 ### What you’ll learn
 
 - What gRPC is, how it works, why we should use it, and where it is suitable to.
 - The amazing HTTP/2 protocol that gRPC is built on.
 - Compare gRPC with REST.
-- Write and serialise protocol-buffer messages using Go + Java.
-- Define gRPC services with protocol-buffer and generate Go + Java codes.
-- Implement 4 types of gRPC using Go + Java: unary, server-streaming, client-streaming, bidirectional streaming.
+- Write and serialise protocol-buffer messages using Go.
+- Define gRPC services with protocol-buffer and generate Go codes.
+- Implement 4 types of gRPC using Go + : unary, server-streaming, client-streaming, bidirectional streaming.
 - Handle context deadline, gRPC errors and status codes.
 - Write production-grade application with interfaces and unit tests for gRPC services.
 - Use gRPC interceptors to authenticate & authorise users with JWT.
@@ -26,7 +26,7 @@ This is a 4-in-1 implementation, where you will learn not only gRPC, but also pr
 
 ### Are there any implementation requirements or prerequisites?
 
-- You only need to have basic programming skills in Go or Java.
+- You only need to have basic programming skills in Go.
 
 ## The PC book application
 
